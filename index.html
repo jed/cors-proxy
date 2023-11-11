@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<script type=module>
+	import {fetch} from 'https://proxy.jed.workers.dev'
+	let res = await fetch('https://jed.is')
+	console.log(await res.text())
+</script>
